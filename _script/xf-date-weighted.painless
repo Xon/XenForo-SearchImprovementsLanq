@@ -1,0 +1,1 @@
+return _score / Math.pow(2.0F, Math.min(10.0F * params.halflife, Math.abs(params.now - doc['date'].value)) / params.halflife)
